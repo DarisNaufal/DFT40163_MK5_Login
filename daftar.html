@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p align="center">
+        <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="steamIcon" height="44" width="176">
+        <a href="">STORE</a>
+        <a href="">COMMUNITY</a>
+        <a href="">ABOUT</a>
+        <a href="">SUPPORT</a><br>
+
+    </p>
+    <form action="simpan.php" method="post">
+        <h1 class="h1">Create Your Account</h1>
+
+        <p>
+        <table class="meja">
+            <tr>
+                <td><label class="email" for="email">Email Address</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="email" size="30" required id="email"></td>
+            </tr>
+            <tr>
+                <td><label class="cemail" for="Cemail">Confirm Email Address</label></td>
+            </tr>
+            <tr>
+                <td><input type="email" name="Cemail" size="30" required id="Cemail"></td>
+            </tr>
+            <tr>
+                <td><label class="country" for="country">Country of Residence</label></td>
+            </tr>
+            <tr>
+                <td><select name="country" id="country" required>
+                        <option value="8"></option>
+                        <option value="1">Malaysia</option>
+                        <option value="2">Singapore</option>
+                        <option value="3">Indonesia</option>
+                        <option value="4">Thailand</option>
+                        <option value="5">New Zealand</option>
+                        <option value="6"></option>
+                        <option value="7"></option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" type="checkbox" id="checkbox">
+                    <label for="checkbox" class="checkbox-label"> I am 13 years of age or older and agree to the terms of the Steam Subscriber Agreement and the <br> Valve Privacy Policy</label>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

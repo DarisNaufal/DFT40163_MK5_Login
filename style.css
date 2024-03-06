@@ -1,1 +1,43 @@
+body {
+    background-color: #171d25;
+}
 
+.h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    text-transform: uppercase;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.email{
+    color: #8B929A;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cemail{
+    color: #8B929A;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.country{
+    color: #8B929A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.checkbox-label{
+    color: #8B929A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meja{
+    padding: 0px 500px;
+    
+}
