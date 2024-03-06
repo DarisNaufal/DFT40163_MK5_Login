@@ -1,5 +1,8 @@
 body {
     background-color: #171d25;
+    background-image: url(background.png);
+    background-size: 100%;
+    background-blend-mode:  overlay;
 }
 
 .h1 {
