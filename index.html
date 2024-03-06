@@ -7,15 +7,22 @@
     <title>Sign In</title>
     <link rel="icon" type="image/x-icon" href="SteamIconTransparent.png">
     <link rel="stylesheet" href="style.css">
+    <link href="daftar.html">
 
     <div class="header">
-        <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"alt="steamIcon" height="44" width="176">
+        <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016"
+            alt="steamIcon" height="44" width="176">
         <a href="">STORE</a>
         <a href="">COMMUNITY</a>
         <a href="">ABOUT</a>
         <a href="">SUPPORT</a><br>
     </div>
-
+    <div class="install2">
+        <a class="boxinstall2" href="">Install Steam</a>
+        <a href="index.html">login</a>
+        <label>|</label>
+        <a href="">language</a><br>
+    </div>
 </head>
 
 <body>
@@ -27,32 +34,33 @@
                 <p>
 
 
-                    <label for="SIGN IN WITH ACCOUNT NAME">SIGN IN WITH ACCOUNT NAME</label><br>
-                    <input id="SIGN IN WITH ACCOUNT NAME" type="text">
+                    <label class="signin" for="SIGN IN WITH ACCOUNT NAME">SIGN IN WITH ACCOUNT NAME</label><br>
+                    <input class="signintext" for="SIGN IN WITH ACCOUNT NAME" type="text">
                 <p>
 
-                    <label for="password">password</label><br>
+                    <label class="password" for="password">PASSWORD</label><br>
                     <input id="password" type="password"><br>
 
                 <p>
-                    <input type="checkbox">remember me
+                    <td><input type="checkbox" type="checkbox" id="chkbox">
+                        <label for="checkbox" class="chkbox">Remember me
                 </p>
             </tr>
             <tr>
-                <button>Sign in</button>
+                <button class="signinbtn">Sign in</button>
             </tr>
         </table>
+    </form>
+    <h4>New To Steam?</h4>
+    <a href="daftar.html">
+        <button class="btnacc">Create An Account</button>
+    </a>
 
-        <h4>New To Steam?</h4>
-        <button>Create An Account</button>
-        <pre>
+    <pre class="info">
         It's free and easy. Discover thousands of 
         games to play with millions of new friends. 
-        <a href="https://store.steampowered.com/about"><u>Learn more about Steam</u></a></pre>
-
-    </form>
-
-
+        <a class="learn" href="https://store.steampowered.com/about"><u>Learn more about Steam</u></a>
+    </pre>
     <footer>
         <hr>
         <a href="http://www.valvesoftware.com"><img
@@ -67,11 +75,11 @@
         <a href="">cookies</a>
         <hr>
 
-        <a href="">about valve</a>
+        <a href="">About Valve</a>
           |  
         <a href="">Jobs</a>
           |  
-        <a href="">steam work</a>
+        <a href="">Steam Work</a>
           |  
         <a href="">Steam Distribution</a>
           |  
