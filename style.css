@@ -50,6 +50,8 @@ body {
     width: 200px;
     height: 25px;
     border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .table-inputc{
@@ -58,6 +60,8 @@ body {
     width: 200px;
     height: 25px;
     border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .table-country{
@@ -66,6 +70,8 @@ body {
     width: 200px;
     height: 25px;
     border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header{
