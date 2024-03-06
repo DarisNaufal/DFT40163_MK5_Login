@@ -8,36 +8,44 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p align="center">
+    <div>
+    <p class="header">
         <img src="https://store.akamai.steamstatic.com/public/shared/images/header/logo_steam.svg?t=962016" alt="steamIcon" height="44" width="176">
         <a href="">STORE</a>
         <a href="">COMMUNITY</a>
         <a href="">ABOUT</a>
-        <a href="">SUPPORT</a><br>
-
+        <a href="">SUPPORT</a>
+        </div>
+        <div class="install">
+        <a class="boxinstall" href="">Install Steam</a>
+        <a href="">login</a>
+        <label>|</label>
+        <a href="">language</a><br>
+        </div>
+        
     </p>
     <form action="simpan.php" method="post">
         <h1 class="h1">Create Your Account</h1>
 
         <p>
-        <table class="meja">
+        <table class="table">
             <tr>
                 <td><label class="email" for="email">Email Address</label></td>
             </tr>
             <tr>
-                <td><input type="email" name="email" size="30" required id="email"></td>
+                <td><input class="table-inpute" type="email" name="email" size="30" required id="email"></td>
             </tr>
             <tr>
                 <td><label class="cemail" for="Cemail">Confirm Email Address</label></td>
             </tr>
             <tr>
-                <td><input type="email" name="Cemail" size="30" required id="Cemail"></td>
+                <td><input class="table-inputc" type="email" name="Cemail" size="30" required id="Cemail"></td>
             </tr>
             <tr>
                 <td><label class="country" for="country">Country of Residence</label></td>
             </tr>
             <tr>
-                <td><select name="country" id="country" required>
+                <td><select class="table-country" name="country" id="country" required>
                         <option value="8"></option>
                         <option value="1">Malaysia</option>
                         <option value="2">Singapore</option>

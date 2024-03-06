@@ -12,6 +12,7 @@ body {
     font-weight: 200;
     letter-spacing: 2px;
     text-align: center;
+
 }
 
 .email{
@@ -24,6 +25,7 @@ body {
     color: #8B929A;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
 }
 
 .country{
@@ -37,7 +39,70 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.meja{
+.table{
     padding: 0px 500px;
-    
 }
+
+
+.table-inpute{
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.table-inputc{
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.table-country{
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.header{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 260px;
+    bottom: -15px;
+
+}
+
+a{
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover{
+    color: white;
+}
+
+.boxinstall{
+    background-color: #5c7e10;
+    padding: 5px;
+    color: white;
+
+}
+
+.install{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    position: relative;
+    top: -65px;
+    right: 100px;
+}
+
