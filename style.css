@@ -1,1 +1,146 @@
+body {
+    background-color: #171d25;
+    background-image: url(background.png);
+    background-size: 100%;
+    background-blend-mode:  overlay;
+}
 
+.h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    text-transform: uppercase;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative;
+    left: 322px;
+    top: 65px;
+
+}
+
+.email {
+    color: #8B929A;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 66px;
+    right: 180px;
+}
+
+.cemail {
+    color: #8B929A;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    position: relative;
+    top: 100px;
+    right: 180px;
+}
+
+.country {
+    color: #8B929A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 130px;
+    right: 180px;
+}
+
+.checkbox-label {
+    color: #8B929A;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 150px;
+    right: 180px;
+}
+
+.table {
+    padding: 0px 500px;
+}
+
+
+.table-inpute {
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 66px;
+    right: 180px;
+}
+
+.table-inputc {
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 100px;
+    right: 180px;
+}
+
+.table-country {
+    background-color: #32353C;
+    border: 1px solid #32353C;
+    width: 200px;
+    height: 25px;
+    border-radius: 3px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 130px;
+    right: 180px;
+}
+
+.header {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 260px;
+    bottom: -15px;
+
+}
+
+a {
+    color: rgb(183, 183, 183);
+    text-decoration: none;
+    margin: 10px;
+}
+
+a:hover {
+    color: white;
+}
+
+.boxinstall {
+    background-color: #5c7e10;
+    padding: 5px;
+    color: white;
+
+}
+
+.install {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 11px;
+    position: relative;
+    top: -68px;
+    right: 270px;
+}
+
+#checkbox{
+    position: relative;
+    top: 147px;
+    right: 180px;
+    transform: scale(1.4);
+}
