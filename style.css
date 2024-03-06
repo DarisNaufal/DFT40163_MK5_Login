@@ -15,36 +15,36 @@ body {
 
 }
 
-.email{
+.email {
     color: #8B929A;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.cemail{
+.cemail {
     color: #8B929A;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     background-size: cover;
 }
 
-.country{
+.country {
     color: #8B929A;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
-.checkbox-label{
+.checkbox-label {
     color: #8B929A;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table{
+.table {
     padding: 0px 500px;
 }
 
 
-.table-inpute{
+.table-inpute {
     background-color: #32353C;
     border: 1px solid #32353C;
     width: 200px;
@@ -54,7 +54,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table-inputc{
+.table-inputc {
     background-color: #32353C;
     border: 1px solid #32353C;
     width: 200px;
@@ -64,7 +64,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.table-country{
+.table-country {
     background-color: #32353C;
     border: 1px solid #32353C;
     width: 200px;
@@ -74,7 +74,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header{
+.header {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -85,24 +85,24 @@ body {
 
 }
 
-a{
+a {
     color: rgb(183, 183, 183);
     text-decoration: none;
     margin: 10px;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
-.boxinstall{
+.boxinstall {
     background-color: #5c7e10;
     padding: 5px;
     color: white;
 
 }
 
-.install{
+.install {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -111,4 +111,3 @@ a:hover{
     top: -65px;
     right: 100px;
 }
-
