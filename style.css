@@ -144,3 +144,16 @@ a:hover {
     right: 180px;
     transform: scale(1.4);
 }
+
+.btn{
+    background-color:#1A9FFF ;
+    border: 1px solid #1A9FFF;
+    color: white;
+    border-radius: 3px;
+    width: 150px;
+    height: 35px;
+    position: relative;
+    top: 180px;
+    left: 320px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
