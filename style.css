@@ -2,7 +2,7 @@
     background-color: #171d25;
     background-image: url(gambar/background.png);
     background-size: 118%;
-    background-blend-mode:  overlay;
+    background-blend-mode: overlay;
 }
 
 .h1 {
@@ -121,7 +121,8 @@
     position: relative;
 
 }
-.a2{
+
+.a2 {
     text-decoration: none;
     margin: 10px;
     text-align: left;
@@ -164,29 +165,29 @@
     text-decoration: none;
 }
 
-.label{
+.label {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     color: #8B929A;
     font-size: 12px;
-    position: relative; 
+    position: relative;
     top: -50px;
     left: 980px;
     text-decoration: none;
 }
 
-.label2{
+.label2 {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     color: #8B929A;
     font-size: 12px;
-    position: relative; 
+    position: relative;
     top: -72px;
     left: 980px;
     text-decoration: none;
 }
 
-.install2{
+.install2 {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     color: #8B929A;
@@ -197,43 +198,43 @@
     text-decoration: none;
 }
 
-.install:hover{
+.install:hover {
     color: white;
 }
 
-.install2:hover{
+.install2:hover {
     color: white;
 }
 
-.boxinstall:hover{
+.boxinstall:hover {
     color: white;
 }
 
-.boxinstall2:hover{
+.boxinstall2:hover {
     color: white;
 }
 
-.boxinstall2{
+.boxinstall2 {
     background-color: #5c7e10;
     padding: 5px;
     color: rgb(202, 202, 202);
     position: relative;
-    top:-50px;
+    top: -50px;
     left: 980px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 12px;
 }
 
-#checkbox{
+#checkbox {
     position: relative;
     top: 147px;
     right: 180px;
     transform: scale(1.4);
 }
 
-.btn{
-    background-color:#1A9FFF ;
+.btn {
+    background-color: #1A9FFF;
     border: 1px solid #1A9FFF;
     color: white;
     border-radius: 3px;
@@ -246,7 +247,7 @@
     cursor: pointer;
 }
 
-.footer{
+.footer {
 
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -258,7 +259,7 @@
     font-size: 15px;
 }
 
-.h2{
+.h2 {
     position: relative;
     color: white;
     top: 105px;
@@ -268,7 +269,7 @@
     font-weight: 1000px;
 }
 
-.signin{
+.signin {
     color: #1A9FFF;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -279,7 +280,7 @@
     letter-spacing: 0.5px;
 }
 
-.signintext{
+.signintext {
     background-color: #32353C;
     border: 1px solid #32353C;
     width: 390px;
@@ -292,7 +293,7 @@
     left: 420px;
 }
 
-.password{
+.password {
     color: #8B929A;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
@@ -302,7 +303,7 @@
     font-weight: bold;
 }
 
-#password{
+#password {
     background-color: #32353C;
     border: 1px solid #32353C;
     width: 390px;
@@ -315,7 +316,7 @@
     left: 420px;
 }
 
-.chkbox{
+.chkbox {
     position: relative;
     top: 110px;
     left: 420px;
@@ -324,7 +325,7 @@
     font-size: 12px;
 }
 
-#chkbox{
+#chkbox {
     position: relative;
     top: 110px;
     left: 420px;
@@ -332,8 +333,8 @@
     transform: scale(1.4);
 }
 
-.signinbtn{
-    background-color:#1A9FFF ;
+.signinbtn {
+    background-color: #1A9FFF;
     border: 1px solid #1A9FFF;
     color: white;
     border-radius: 3px;
@@ -347,7 +348,7 @@
     cursor: pointer;
 }
 
-.h4{
+.h4 {
     position: relative;
     color: white;
     top: 190px;
@@ -357,8 +358,8 @@
     font-weight: 1000px;
 }
 
-.btnacc{
-    background-color:#1A9FFF ;
+.btnacc {
+    background-color: #1A9FFF;
     border: 1px solid #1A9FFF;
     color: white;
     border-radius: 3px;
@@ -369,10 +370,10 @@
     top: 170px;
     left: 470px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    cursor:pointer ;
+    cursor: pointer;
 }
 
-.info{
+.info {
     position: relative;
     color: #8B929A;
     top: 90px;
@@ -382,7 +383,7 @@
 
 
 
-.img{
+.img {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -392,16 +393,16 @@
     bottom: -15px;
 }
 
-.img2{
+.img2 {
     position: relative;
     left: 250px;
     bottom: -20px;
 }
 
-.u{
-   color: #8B929A;
+.u {
+    color: #8B929A;
 }
 
-.u:hover{
+.u:hover {
     color: white;
 }
