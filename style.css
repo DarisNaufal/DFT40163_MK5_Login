@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: #171d25;
     background-image: url(background.png);
     background-size: 118%;
@@ -106,36 +106,123 @@ body {
     color: white;
     font-weight: bold;
     position: relative;
-    left: 260px;
-    bottom: -15px;
+    left: 249px;
+    bottom: 4px;
 
 }
 
-a {
-    color: rgb(183, 183, 183);
+.a {
     text-decoration: none;
     margin: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+
+}
+.a2{
+    text-decoration: none;
+    margin: 10px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 250px;
+    bottom: -5px;
 }
 
-a:hover {
-    color: white;
+.a2:hover {
+    color: rgb(0, 140, 255);
+}
+
+.a:hover {
+    color: rgb(0, 140, 255);
 }
 
 .boxinstall {
     background-color: #5c7e10;
     padding: 5px;
-    color: white;
-
+    color: #dadde1;
+    top: -70px;
+    left: 980px;
+    position: relative;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .install {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 11px;
+    color: #8B929A;
+    font-size: 12px;
     position: relative;
-    top: -68px;
-    right: 270px;
+    top: -70px;
+    left: 980px;
+    text-decoration: none;
+}
+
+.label{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B929A;
+    font-size: 12px;
+    position: relative; 
+    top: -50px;
+    left: 980px;
+    text-decoration: none;
+}
+
+.label2{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B929A;
+    font-size: 12px;
+    position: relative; 
+    top: -70px;
+    left: 980px;
+    text-decoration: none;
+}
+
+.install2{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B929A;
+    font-size: 12px;
+    position: relative;
+    top: -50px;
+    left: 980px;
+    text-decoration: none;
+}
+
+.install:hover{
+    color: white;
+}
+
+.install2:hover{
+    color: white;
+}
+
+.boxinstall:hover{
+    color: white;
+}
+
+.boxinstall2:hover{
+    color: white;
+}
+
+.boxinstall2{
+    background-color: #5c7e10;
+    padding: 5px;
+    color: rgb(202, 202, 202);
+    position: relative;
+    top:-50px;
+    left: 980px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
 }
 
 #checkbox{
@@ -159,7 +246,7 @@ a:hover {
     cursor: pointer;
 }
 
-footer{
+.footer{
 
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -171,28 +258,11 @@ footer{
     font-size: 15px;
 }
 
-.install2{
-    text-align: right;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 11px;
-    position: relative;
-    top: -44px;
-    right: 270px;
-}
-
-.boxinstall2{
-    background-color: #5c7e10;
-    padding: 5px;
-    color: white;
-}
-
-
-h2{
+.h2{
     position: relative;
     color: white;
     top: 105px;
-    left: 480px;
+    left: 400px;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000px;
@@ -204,7 +274,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 157px;
-    left: 480px;
+    left: 420px;
     font-weight: bold;
     letter-spacing: 0.5px;
 }
@@ -219,7 +289,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 160px;
-    left: 480px;
+    left: 420px;
 }
 
 .password{
@@ -227,7 +297,7 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 157px;
-    left: 480px;
+    left: 420px;
     font-size: 12px;
 }
 
@@ -241,13 +311,13 @@ h2{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 160px;
-    left: 480px;
+    left: 420px;
 }
 
 .chkbox{
     position: relative;
     top: 110px;
-    left: 480px;
+    left: 420px;
     color: #8B929A;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
@@ -256,7 +326,7 @@ h2{
 #chkbox{
     position: relative;
     top: 110px;
-    left: 480px;
+    left: 420px;
     color: #8B929A;
     transform: scale(1.4);
 }
@@ -271,17 +341,16 @@ h2{
     position: relative;
     font-size: 16px;
     top: 190px;
-    left: 550px;
+    left: 500px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
-h4{
-
+.h4{
     position: relative;
     color: white;
     top: 190px;
-    left: 505px;
+    left: 490px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000px;
@@ -292,18 +361,46 @@ h4{
     border: 1px solid #1A9FFF;
     color: white;
     border-radius: 3px;
-    width: 150px;
+    width: 180px;
     height: 35px;
     position: relative;
-    top: 190px;
-    left: 495px;
+    font-size: 16px;
+    top: 170px;
+    left: 470px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     cursor:pointer ;
 }
 
 .info{
     position: relative;
-    color: white;
+    color: #8B929A;
     top: 90px;
     left: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.img{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    left: 0px;
+    bottom: -15px;
+}
+
+.img2{
+    position: relative;
+    left: 250px;
+    bottom: -20px;
+}
+
+.u{
+   color: #8B929A;
+}
+
+.u:hover{
+    color: white;
 }
