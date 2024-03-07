@@ -1,6 +1,6 @@
 .body {
     background-color: #171d25;
-    background-image: url(background.png);
+    background-image: url(gambar/background.png);
     background-size: 118%;
     background-blend-mode:  overlay;
 }
